@@ -35,13 +35,13 @@ In this case it is about connecting a Gree Versati III 10kw heat pump.
 ```
 uart:
   id: mod_bus
-  tx_pin: GPIO16
-  rx_pin: GPIO17
+  tx_pin: GPIO16 # D7 for Wemos
+  rx_pin: GPIO17 # D6 for Wemos
   baud_rate: 9600
   stop_bits: 2
 
 modbus:
-  flow_control_pin: GPIO23
+  flow_control_pin: GPIO23 # D5 for Wemos
   send_wait_time: 100ms
   id: modbus_versati3
   
