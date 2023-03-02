@@ -59,12 +59,21 @@ number:
 sensor:
   - platform: modbus_controller
     modbus_controller_id: versati3
-    name: "Gree_versati_tank_temp"
+    name: "Gree_versati_tank_temp_target"
     address: 13
     unit_of_measurement: "°C" 
     register_type: holding
     value_type: U_WORD
+    accuracy_decimals: 1 
+
+  - platform: modbus_controller
+    modbus_controller_id: versati3
+    name: "Gree_versati_tank_temp"
+    address: 128
+    unit_of_measurement: "°C" 
+    register_type: holding
+    value_type: U_WORD
     accuracy_decimals: 1
-    # filters:
-    # - multiply: 0.1    
+    filters:
+    - multiply: 0.1
 ```    
