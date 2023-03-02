@@ -1,14 +1,17 @@
-# ESPHome-modbus-heatpump-Gree-Versati-III
+# ESPHome modbus - heatpump Gree Versati III
+
 
 **Info:**
+This manual describes how to connect the device to Home Assistant via Modbus protocol using ESP and RS485/TTL converter.
+In this case it is about connecting a Gree Versati III 10kw heat pump.
 
-Tento návod popisuje jak připojit zařízení do Home Assistant přes modbus protokol pomocí ESP a RS485/TTL převodníku.
-V tomto případě jde o připojení tepelného čerpadla Gree Versati III.
 
-**Komponenty:**
-
+**Components:**
 - ESP8266 / ESP32
 - RS485/TTL converter: [SHOP](https://www.laskakit.cz/prevodnik-ttl-na-rs-485--max485/) 
+
+**Schematic:**
+![Schema](https://github.com/peca2345/ESPHome-modbus-heatpump-Gree-Versati-III/blob/main/IMG/schematic.png?raw=true)
 
 **ESPHome code**
 ```
