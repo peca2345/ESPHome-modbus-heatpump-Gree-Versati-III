@@ -11,14 +11,14 @@ In this case it is about connecting a Gree Versati III 10kw heat pump.
 
 
 
-**Components:**
+## Components:
 - ESP8266 / ESP32
 - RS485/TTL converter: [SHOP](https://www.laskakit.cz/prevodnik-ttl-na-rs-485--max485/) 
 
-**Schematic:**
+## Schematic:
 ![Schema](https://github.com/peca2345/ESPHome-modbus-heatpump-Gree-Versati-III/blob/main/IMG/schematic.png?raw=true)
 
-**ESPHome code**
+## ESPHome code:
 ```
 uart:
   id: mod_bus
