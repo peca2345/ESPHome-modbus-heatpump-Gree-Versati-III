@@ -76,4 +76,37 @@ sensor:
     accuracy_decimals: 1
     filters:
     - multiply: 0.1
+    
+  - platform: modbus_controller
+    modbus_controller_id: versati3
+    name: "Gree_versati_outside_temp"
+    address: 118
+    unit_of_measurement: "°C" 
+    register_type: holding
+    value_type: U_WORD
+    accuracy_decimals: 1
+    filters:
+    - multiply: 0.1    
+    
+  - platform: modbus_controller
+    modbus_controller_id: versati3
+    name: "Gree_versati_water_in_temp"
+    address: 127
+    unit_of_measurement: "°C" 
+    register_type: holding
+    value_type: U_WORD
+    accuracy_decimals: 1
+    filters:
+    - multiply: 0.1
+
+  - platform: modbus_controller
+    modbus_controller_id: versati3
+    name: "Gree_versati_water_out_temp"
+    address: 125
+    unit_of_measurement: "°C" 
+    register_type: holding
+    value_type: U_WORD
+    accuracy_decimals: 1
+    filters:
+    - multiply: 0.1    
 ```    
