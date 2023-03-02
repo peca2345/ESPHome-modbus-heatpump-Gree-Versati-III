@@ -11,6 +11,8 @@ In this case it is about connecting a Gree Versati III 10kw heat pump.
 - use only shielded cable, otherwise the error "Modbus CRC Check Failed!" may appear in the log.
 - put a 120 ohm resistor after the last connected device
 - modbus datasheet: [Gree Versati III]([https://www.laskakit.cz/prevodnik-ttl-na-rs-485--max485/](https://github.com/peca2345/ESPHome-modbus-heatpump-Gree-Versati-III/blob/main/modbus-versati-iii-en.pdf)
+- you have to find out what the heatpump address is - default is 0x1
+- you also need to find out the serial port speed - default 9600
 
 ## Components:
 - ESP8266 / ESP32
