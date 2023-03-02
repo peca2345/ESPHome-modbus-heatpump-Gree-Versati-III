@@ -1,9 +1,14 @@
 # ESPHome modbus - heatpump Gree Versati III
 
+## Description:
 
-**Info:**
 This manual describes how to connect the device to Home Assistant via Modbus protocol using ESP and RS485/TTL converter.
 In this case it is about connecting a Gree Versati III 10kw heat pump.
+
+
+
+## Info:
+
 
 
 **Components:**
