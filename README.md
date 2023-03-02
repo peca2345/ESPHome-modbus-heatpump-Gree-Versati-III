@@ -27,7 +27,7 @@ In this case it is about connecting a Gree Versati III 10kw heat pump.
 
 
 ## Schematic:
-![Schema](https://github.com/peca2345/ESPHome-modbus-heatpump-Gree-Versati-III/blob/main/IMG/schematic.png?raw=true)
+![Schema](https://github.com/peca2345/ESPHome-modbus-heatpump-Gree-Versati-III/blob/main/IMG/schematic2.png?raw=true)
 
 
 ## ESPHome code:
