@@ -13,6 +13,9 @@ In this case it is about connecting a Gree Versati III 10kw heat pump.
 - modbus datasheet: [Gree Versati III](https://github.com/peca2345/ESPHome-modbus-heatpump-Gree-Versati-III/blob/main/modbus-versati-iii-en.pdf)
 - you have to find out what the heatpump address is - default is 0x1
 - you also need to find out the serial port speed - default 9600
+- in ESPHome use the sensor class only for addresses that are read-only
+- for addresses that are read/write use the "number" class (you can then change their values in lovelace)
+- for each register you want to have in HA you have to create a separate sensor in ESPHome
 
 ## Components:
 - ESP8266 / ESP32
