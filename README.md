@@ -50,7 +50,7 @@ modbus_controller:
 number:
   - platform: modbus_controller
     modbus_controller_id: versati3
-    name: "nasi_komora_modbus_tank_target_temp_set"
+    name: "Gree_versati_tank_temp_set"
     address: 13
     unit_of_measurement: "°C"
     value_type: S_WORD
@@ -59,7 +59,7 @@ number:
 sensor:
   - platform: modbus_controller
     modbus_controller_id: versati3
-    name: "nasi_komora_modbus_tank_target_temp"
+    name: "Gree_versati_tank_temp"
     address: 13
     unit_of_measurement: "°C" 
     register_type: holding
