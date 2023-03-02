@@ -1,10 +1,8 @@
 # ESPHome modbus - heatpump Gree Versati III
 
 ## Description:
-
 This manual describes how to connect the device to Home Assistant via Modbus protocol using ESP and RS485/TTL converter.
 In this case it is about connecting a Gree Versati III 10kw heat pump.
-
 
 
 ## Info:
@@ -17,12 +15,19 @@ In this case it is about connecting a Gree Versati III 10kw heat pump.
 - for addresses that are read/write use the "number" class (you can then change their values in lovelace)
 - for each register you want to have in HA you have to create a separate sensor in ESPHome
 
+
+## Lovelace:
+![lovelace](https://github.com/peca2345/ESPHome-modbus-heatpump-Gree-Versati-III/blob/main/IMG/Lovelace.png?raw=true)
+
+
 ## Components:
 - ESP8266 / ESP32
 - RS485/TTL converter: [SHOP](https://www.laskakit.cz/prevodnik-ttl-na-rs-485--max485/) 
 
+
 ## Schematic:
 ![Schema](https://github.com/peca2345/ESPHome-modbus-heatpump-Gree-Versati-III/blob/main/IMG/schematic.png?raw=true)
+
 
 ## ESPHome code:
 ```
@@ -110,3 +115,5 @@ sensor:
     filters:
     - multiply: 0.1    
 ```    
+
+
