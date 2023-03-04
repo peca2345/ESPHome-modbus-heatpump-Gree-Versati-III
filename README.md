@@ -17,7 +17,7 @@ In this case it is about connecting a Gree Versati III 10kw heat pump.
 - you can write the address to the sensor in decimal or hex
 
 ## Lovelace:
-![lovelace](https://github.com/peca2345/ESPHome-modbus-heatpump-Gree-Versati-III/blob/main/IMG/Lovelace.png?raw=true)
+![lovelace](https://github.com/peca2345/ESPHome-modbus-heatpump-Gree-Versati-III/blob/main/IMG/lovelace3.png?raw=true)
 
 
 ## Components:
