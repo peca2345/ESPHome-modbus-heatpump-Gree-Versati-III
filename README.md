@@ -706,7 +706,7 @@ sensor:
     name: versati_117_unit_status_number
     address: 117
     register_type: holding
-    value_type: U_WORD
+    value_type: S_WORD
     on_value:
       then:
         - lambda: |-
@@ -731,7 +731,7 @@ sensor:
     address: 118
     unit_of_measurement: "°C" 
     register_type: holding
-    value_type: U_WORD
+    value_type: S_WORD
     accuracy_decimals: 1
     filters:
     - multiply: 0.1
@@ -742,7 +742,7 @@ sensor:
     address: 119
     unit_of_measurement: "°C" 
     register_type: holding
-    value_type: U_WORD
+    value_type: S_WORD
     accuracy_decimals: 1
     filters:
     - multiply: 0.1
@@ -753,7 +753,7 @@ sensor:
     address: 120
     unit_of_measurement: "°C" 
     register_type: holding
-    value_type: U_WORD
+    value_type: S_WORD
     accuracy_decimals: 1
     filters:
     - multiply: 0.1
@@ -764,7 +764,7 @@ sensor:
     address: 121
     unit_of_measurement: "°C" 
     register_type: holding
-    value_type: U_WORD
+    value_type: S_WORD
     accuracy_decimals: 1
     filters:
     - multiply: 0.1
@@ -775,7 +775,7 @@ sensor:
     address: 122
     unit_of_measurement: "°C" 
     register_type: holding
-    value_type: U_WORD
+    value_type: S_WORD
     accuracy_decimals: 1
     filters:
     - multiply: 0.1
@@ -786,7 +786,7 @@ sensor:
     address: 123
     unit_of_measurement: "°C" 
     register_type: holding
-    value_type: U_WORD
+    value_type: S_WORD
     accuracy_decimals: 1
     filters:
     - multiply: 0.1
@@ -797,7 +797,7 @@ sensor:
     address: 124
     unit_of_measurement: "°C" 
     register_type: holding
-    value_type: U_WORD
+    value_type: S_WORD
     accuracy_decimals: 1
     filters:
     - multiply: 0.1
@@ -808,7 +808,7 @@ sensor:
     address: 125
     unit_of_measurement: "°C" 
     register_type: holding
-    value_type: U_WORD
+    value_type: S_WORD
     accuracy_decimals: 1
     filters:
     - multiply: 0.1
@@ -819,7 +819,7 @@ sensor:
     address: 126
     unit_of_measurement: "°C" 
     register_type: holding
-    value_type: U_WORD
+    value_type: S_WORD
     accuracy_decimals: 1
     filters:
     - multiply: 0.1
@@ -830,7 +830,7 @@ sensor:
     address: 127
     unit_of_measurement: "°C" 
     register_type: holding
-    value_type: U_WORD
+    value_type: S_WORD
     accuracy_decimals: 1
     filters:
     - multiply: 0.1
@@ -841,7 +841,7 @@ sensor:
     address: 128
     unit_of_measurement: "°C" 
     register_type: holding
-    value_type: U_WORD
+    value_type: S_WORD
     accuracy_decimals: 1
     filters:
     - multiply: 0.1
@@ -852,7 +852,7 @@ sensor:
     address: 129
     unit_of_measurement: "°C" 
     register_type: holding
-    value_type: U_WORD
+    value_type: S_WORD
     accuracy_decimals: 1
     filters:
     - multiply: 0.1    
@@ -863,7 +863,7 @@ sensor:
     address: 130
     unit_of_measurement: "°C" 
     register_type: holding
-    value_type: U_WORD
+    value_type: S_WORD
     accuracy_decimals: 1
     filters:
     - multiply: 0.1
@@ -874,7 +874,7 @@ sensor:
     address: 131
     unit_of_measurement: "°C" 
     register_type: holding
-    value_type: U_WORD
+    value_type: S_WORD
     accuracy_decimals: 1
     filters:
     - multiply: 0.1
@@ -885,7 +885,7 @@ sensor:
     name: versati_132_thermostat_status_number
     address: 132
     register_type: holding
-    value_type: U_WORD
+    value_type: S_WORD
     accuracy_decimals: 1 
     on_value:
       then:
@@ -910,7 +910,7 @@ sensor:
     address: 133
     unit_of_measurement: "°C" 
     register_type: holding
-    value_type: U_WORD
+    value_type: S_WORD
     accuracy_decimals: 1 
     filters:
     - multiply: 0.001    
@@ -921,7 +921,7 @@ sensor:
     address: 134
     unit_of_measurement: "h" 
     register_type: holding
-    value_type: U_WORD
+    value_type: S_WORD
     accuracy_decimals: 1 
 
   - platform: modbus_controller
@@ -930,7 +930,7 @@ sensor:
     name: "versati_135_disinfection_status_number"
     address: 135
     register_type: holding
-    value_type: U_WORD
+    value_type: S_WORD
     accuracy_decimals: 1 
     on_value:
       then:
@@ -956,7 +956,7 @@ sensor:
     address: 136
     unit_of_measurement: "s" 
     register_type: holding
-    value_type: U_WORD
+    value_type: S_WORD
     accuracy_decimals: 1 
 
   - platform: modbus_controller
@@ -965,7 +965,7 @@ sensor:
     address: 137
     unit_of_measurement: "°C" 
     register_type: holding
-    value_type: U_WORD
+    value_type: S_WORD
     accuracy_decimals: 1 
 
   - platform: modbus_controller
@@ -974,7 +974,7 @@ sensor:
     address: 142
     unit_of_measurement: "Hz" 
     register_type: holding
-    value_type: U_WORD    
+    value_type: S_WORD    
 
   - platform: modbus_controller
     modbus_controller_id: versati3
@@ -982,7 +982,7 @@ sensor:
     address: 143
     unit_of_measurement: "Hz" 
     register_type: holding
-    value_type: U_WORD    
+    value_type: S_WORD    
 ```    
 
 ## Lovelace config:
